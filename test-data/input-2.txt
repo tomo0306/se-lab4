@@ -1,0 +1,6 @@
+# the ship fires from all weapon successfully
+GT4500,10,0,10,0
+TORPEDO,ALL # fire from both
+# előfeltétel: hajó 2 fegyverrel, ami biztosan sikeresen lő
+# teszt lépései: létrehozunk egy hajót 100%-os success rate-tel, és megpróbáljuk mindkét ágyút tüzelni
+# várt eredmény: a hajó és a tüzelés is sikeres

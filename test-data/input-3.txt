@@ -1,0 +1,6 @@
+# hajó készítése töltény nélkül
+GT4500,0,0,0,0
+TORPEDO,ALL
+# előfeltétel: hajó 2 fegyverrel, amiben nincs töltény
+# teszt lépései: létrehozunk egy hajót 100%-os success rate-tel, és megpróbáljuk mindkét ágyút tüzelni, viszont nincs töltény
+# várt eredmény: a hajó létrehozása sikeres, a tüzelés nem lesz az
