@@ -1,0 +1,6 @@
+# Create a ship with stocked torpedo stores that always fail
+GT4500,10,1,10,1
+TORPEDO,ALL # tries to fire them, but it fails
+# előfeltétel: hajó 2 fegyverrel, ami biztosan sikertelenül lő
+# teszt lépései: létrehozunk egy hajót 100%-os failure rate-tel, és megpróbáljuk mindkét ágyút tüzelni
+# várt eredmény: a hajó létrehozása sikeres, a tüzelés nem az
